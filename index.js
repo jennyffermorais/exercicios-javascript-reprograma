@@ -19,7 +19,7 @@ console.log("O valor do aumento é: " + valorAumento);
 let preco = Number(prompt("Digite o valor do produto: "));
 let percentualDesconto = Number(prompt("Digite o percentual de desconto: "));
 
-let valorDesconto = preco * (percentualDesconto/ 100);
+let valorDesconto = preco * (percentualDesconto / 100);
 let resultado = (preco - valorDesconto).toFixed(2);
 
 console.log("O valor do produto é: " + resultado);
@@ -35,7 +35,9 @@ let horas = parseInt(tempo);
 
 let minutos = parseInt((tempo - horas) * 60);
 
-alert("O tempo da viagem será: " + horas  + " hora(s) e " + minutos + " minutos");
+alert(
+  "O tempo da viagem será: " + horas + " hora(s) e " + minutos + " minutos"
+);
 
 // ******************FizzBuzz******************
 // primeira forma
